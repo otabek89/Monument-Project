@@ -3,48 +3,44 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Monument | Blog</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i|Raleway:500,600" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i|Raleway:500,600" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/blog.css">
 
 </head>
 <body class="blog-page">
 
-        <header>
-                <nav>
-                        <a class="hamburger" href=""><i class="ham"></i></a>
-                        <ul>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#gallery">Gallery</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        </ul>
-                </nav>
-        </header>
-        
-            <div id="image">
-                <img src=/Users/otabekrazikov/OAR-SM-62/work/monument/images/blog_header_bg.jpg alt=""/>
-                <h1><span>MONUMENT</span></h1>
-            
-            </div>
-		
+	<header class="vertical-center">
+		<div>
+			<h1><a href="/Users/otabekrazikov/OAR-SM-62/work/monument/images/blog_header_bg.jpg">Monument</a></h1>
+		</div>
+	</header>
+	<nav>
+		<a class="hamburger" href=""><i class="fa fa-bars"></i></a>
+		<ul>
+		<li><a href="index.html#about">About</a></li>
+		<li><a href="index.html#gallery">Gallery</a></li>
+		<li><a href="blog.html">Blog</a></li>
+		<li><a href="index.html#contact">Contact</a></li>
+		</ul>
+	</nav>
 
-	
+	<div class="wrap grid-wrapper">
 		<section>
 			<article>
 				<h3>11/23/2016</h3>
 				<h2>A Visual Guide to the Southwest</h2>
 				<img src="images/blog_1.jpg" alt="">
-				<p>Amet placerat sed sed enim blandit diam, vestibulum nascetur vestibulum pellentesque dui, at fusce. Vivamus pulvinar eget augue. Sed magna augue, volutpat a et sagittis aliquet nulla vitae. Justo sit accumsan, id sem quisque turpis magna, nullam nostra vivamus aliquet amet, diam tristique nam. Nulla egestas nisl sodales elit dignissim, tortor pellentesque eget. Nunc fermentum ultricies, non cumque ipsum elementum nulla sem</p>
+				<p>Proin euismod vitae risus at tempor. Etiam bibendum quis eros nec euismod. In hac habitasse platea dictumst. Phasellus interdum tellus sapien, non cursus elit laoreet vitae. Donec accumsan leo non diam scelerisque, in pulvinar nisl faucibus. Integer eleifend lacinia felis in tincidunt. Nulla vel tempor ipsum. Duis lobortis leo sem, sit amet mattis est condimentum quis. Pellentesque in felis rhoncus, tempus est non, aliquam leo. Proin sit amet nisl lectus. Nulla facilisi. Vivamus laoreet hendrerit felis, vitae luctus erat dapibus finibus. Sed interdum quam vel mauris sollicitudin rhoncus. Curabitur sit amet elit malesuada, interdum elit et, placerat lorem. Etiam in leo elit. Aliquam dignissim dui nunc, et finibus dui ornare vitae.</p>
 				<img src="images/blog_2.jpg" alt="">
-				<p>Amet placerat sed sed enim blandit diam, vestibulum nascetur vestibulum pellentesque dui, at fusce. Vivamus pulvinar eget augue. Sed magna augue, volutpat a et sagittis aliquet nulla vitae. Justo sit accumsan, id sem quisque turpis magna, nullam nostra vivamus aliquet amet, diam tristique nam. Nulla egestas nisl sodales elit dignissim, tortor pellentesque eget. Nunc fermentum ultricies, non cumque ipsum elementum nulla sem</p>
+				<p>Integer pharetra ultricies dolor, vel suscipit ligula porttitor vitae. Vivamus id vehicula felis, a feugiat eros. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris sed enim diam. Proin dui leo, rhoncus id hendrerit sed, placerat sed ipsum. Morbi ac erat vitae velit efficitur tempor. Etiam ac sodales magna, a commodo felis. Ut sit amet porta erat. Quisque sagittis imperdiet leo id hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur ut ex felis. In nec porttitor libero, ut malesuada felis. Sed malesuada mi ultricies mauris venenatis tempus. Curabitur malesuada eleifend ornare.</p>
 			</article>
 		</section>
 
 		<aside>
 			<h3>About Us</h3>
-			<p>Lorem ipsum dolor sit amet, sea debet laboramus in, mea vitae indoctum in. Sea ne decore tamquam oportere, his eu vocent persius. Iusto mnesarchum his at, et nec aliquid expetendis. Ut justo tibique cum. Id tale quas illud ius.
-                </p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum fugiat illo sunt quasi incidunt veniam cumque minus totam rem ea vel ut eius, accusamus, doloribus dolore at ipsum quaerat molestias.</p>
 			<p>Explicabo consectetur tempora perferendis voluptas itaque, corporis at ipsum quisquam eveniet, facilis perspiciatis. Eum ad adipisci, earum fugit perspiciatis deserunt veniam eos? Impedit expedita assumenda, saepe excepturi ad voluptatibus. Eveniet.</p>
 			<img src="images/about.jpg" alt="">
 			<h3>Recent Issues</h3>
@@ -58,9 +54,19 @@
 			</ul>
 		</aside>
 		
-	
+	</div>
 
-	
+	<section class="comment">
+		<div class="wrap">
+		<h2>Leave a Comment</h2>
+			<form>
+				<input type="text" placeholder="Name" class="col-half">
+				<input type="email" placeholder="Email" class="col-half">
+				<textarea name="" id="" cols="30" rows="10" placeholder="Comment"></textarea>
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+	</section>
 	<footer>
 		<div class="wrap">
 			<div class="social-links">

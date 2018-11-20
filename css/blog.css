@@ -1,6 +1,6 @@
-/* 
+/* ----------------------------------------
 Header
- */
+------------------------------------------- */
 header h2 {
 	font-size: 20.8px;
 	font-size: 1.3rem;
@@ -19,7 +19,8 @@ header {
 }
 
 h1 a {
-	color: whitesmoke;
+	color: #44545E;
+	color: white;
 	margin-top: 40px;
 	margin-top: 2.5rem;
 	display: inline-block;
@@ -29,10 +30,10 @@ h1 a {
 Layout
 ------------------------------------------- */
 .grid-wrapper section {
-	width: 69%;
+	width: 70%;
 	text-align: left;
 	padding-top: 0;
-	padding-bottom: 54px;
+	padding-bottom: 54.4px;
 	padding-bottom: 3.4rem;
 }
 
@@ -123,79 +124,11 @@ footer .wrap {
 
 
 
-/* ----------------------------------------
-Media Queries
-------------------------------------------- */
 @media only screen and (max-width: 774px) {
 	aside {
 		display: none;
 	}
 	.grid-wrapper section {
 		width: 100%;
-	}
-}
-
-
-@media only screen and (max-width: 790px) {
-	nav a {
-		padding: .2rem 2rem;
-	}
-	.col-third {
-		width: 100%;
-	}
-	.articles button {
-		margin-top: .5rem;
-	}
-
-	.col-third img {
-		display: block;
-		margin: 3rem auto 1rem;
-	}
-
-	.col-third h3 {
-		margin-bottom: .5rem;
-	}
-
-	.col-third:first-of-type img {
-		margin-top: 0;
-	}
-
-
-
-
-}
-
-@media only screen and (max-width: 560px) {
-	html {
-		font-size: 14px;
-	}
-
-	nav ul {
-		display: none;
-	}
-
-	nav {
-		background-color: transparent;
-	}
-
-	.hamburger {
-		display: block;
-		color: #fff;
-		font-size: 1.7rem;
-		position: absolute;
-		top: 10px;
-		left: 2px;
-	}
-
-	.col-half {
-		width: 100%;
-	}
-
-	footer button {
-		width: 300px;
-	}
-	
-	footer input {
-		margin-right: 0;
 	}
 }

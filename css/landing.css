@@ -1,0 +1,267 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+ height: 100%;
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	background-color: #FFF;
+	font-family: 'Raleway', sans-serif;
+	color: #44545E;
+	line-height: 1.618em;
+}
+
+body p {
+	font-family: 'Lato', sans-serif;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-transform: uppercase;	
+	background-color: #FFF;
+	width: 100%;
+}
+
+nav a {
+	font-weight: 600;
+	letter-spacing: 0.75px;
+	letter-spacing: .05rem;
+	padding: 3px 60px;
+	padding: .2rem 4rem;
+	display: inline-block;
+	border-bottom: none;
+	text-transform: uppercase;
+}
+
+header {
+	color: white;
+	background-image: url(/Users/otabekrazikov/OAR-SM-62/work/monument/images/home_header_bg.jpg);
+	background-size: cover;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+	padding: 10%;
+	font-size: 2em;
+	background-repeat: no-repeat;
+	height: 20em;
+	
+}
+
+header h2 {
+	font-size: 1em;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+
+}
+
+div {
+	padding-top: 0;
+	padding-bottom: 54.4px;
+	line-height: 1.5;
+
+}
+
+.flex {
+	justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+}
+
+.column {
+	width: 30%;
+	padding: 3em;
+}
+
+article {
+	width: 100%;
+	background-color: #D5F1F5;
+	text-align: center;
+	padding: 4em;
+}
+
+
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	padding: 2em;
+
+}
+
+h3 {
+	text-align: center;
+	text-transform: uppercase;
+	padding: 1em;
+}
+
+h5 {
+	font-size: 1em;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.grid-wrapper section {
+	width: 70%;
+	text-align: left;
+	padding-top: 0;
+	padding-bottom: 54.4px;
+	padding-bottom: 3.4rem;
+}
+
+.comment {
+	padding-top: 0;
+}
+
+
+/* Button */
+button {
+	cursor: pointer;
+	outline: 0;
+	border: 2px solid #44545E;
+	color: #44545E;
+	padding: 8px 25.5px;
+	padding: 8px 1.7rem;
+	background-color: transparent;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 12.299px;
+	font-size: .82rem;
+	letter-spacing: 1.2px;
+	letter-spacing: .08rem;
+	transition: all .3s ease-in-out;
+}
+
+button:hover {
+	background-color: #44545E;
+	color: white;
+	font-weight: 600;
+}
+
+.articles button {
+	margin-top: 30px;
+	margin-top: 2rem;
+}
+
+/* ----------------------------------------
+Forms
+------------------------------------------- */
+form {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+form button {
+	width: 100%;
+}
+
+textarea {
+	width: 100%;
+	display: block;
+}
+
+input, textarea {
+	border: 2px solid rgb(0, 155, 252);
+	margin-bottom: 12px;
+	margin-bottom: .8rem;
+	padding: 10px 10px;
+	outline: 0;
+}
+
+::-webkit-input-placeholder {
+   color:rgb(71, 130, 179);
+   text-transform: uppercase;
+   letter-spacing: 0.75px;
+   letter-spacing: .05rem;
+   font-size: 12.299px;
+   font-size: .82rem;
+   font-weight: 600;
+}
+
+
+.col {
+	width: 33%;
+	border: 1px solid #CCCCCC;
+}
+
+.column {
+	width: 30%;
+    column-count: 3;
+    display: flex;
+	justify-content: space-around;
+}
+
+#gallery {
+	column-count: 3;
+	justify-content: space-around;
+}
+
+.hamburger {
+	display: none;
+}
+
+
+button:hover {
+	background-color:  #CDF3F6;
+	color: #FFF;
+}
+
+nav a:hover {
+	background-color:  #CDF3F6;
+	color: #FFF;
+}
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */
+footer {
+    background-color: #CDF3F6;
+    overflow: auto;
+}
+
+footer input {
+	padding: 11px 10px;
+	width: 300px;
+	margin-right: 30px;
+	margin-right: 2rem;
+    border: 0;
+    text-align: center;
+	
+}
+
+footer .wrap {
+	padding: 30px 15px;
+	padding: 2rem 1rem;
+}
+
+.social-links a {
+	font-size: 30px;
+	font-size: 2rem;
+	padding: 15px;
+	padding: 1rem;
+	margin-bottom: 30px;
+	margin-bottom: 2rem;
+	display: inline-block;
+	color: rgb(14, 158, 248);
+}
+
+.copyright {
+	border-top: 2px solid #44545E;
+	padding: 15px 0 3px;
+    padding: 1rem 0 .2rem;
+    text-align: center;
+}
+
+
